@@ -96,7 +96,6 @@ class AuthPage extends Component {
     let data = {
       emailSignin : this.state.isEmail,
       email: this.state.email,
-      username: this.state.email,
       phone: this.state.phone,
       password: this.state.password
     }
